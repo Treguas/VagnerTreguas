@@ -83,21 +83,30 @@ a:hover {
   text-decoration: underline;
 }
 
-.titulo {
-  transform: scale(0.2) translateY(50vh);
-  opacity: 0;
-  animation: 1s ease 500ms animacaoTitulo forwards;
-}
-
 @keyframes animacaoTitulo {
   from {
-    transform: scale(0.2) translateY(50vh);
-    opacity: 0;
+    width: 0;
   }
   to {
-    transform: scale(1) translateY(0);
-    opacity: 1;
+    width: 7.1em;
   }
+}
+
+@keyframes blinking-title {
+  from{
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+
+  }
+  to{
+      border-right-color: transparent;
+  }
+}
+
+@keyframes subtitle-animation {
+  100%
+  {
+   opacity: 1;
+  } 
 }
 
 .site-subtitle, 
@@ -107,20 +116,26 @@ a:hover {
 }
 
 .site-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
   font-size: 4em;
   font-family: 'Roboto', sans-serif;
+  animation: blinking-title 500ms steps(40) infinite normal, animacaoTitulo 2s steps(40) 0.5s normal both;
 }
 
 .site-subtitle {
+ opacity: 0;
  font-style: italic;
  font-family: 'Press Start 2P', cursive;
  line-height: 1.8em;
+ animation: linear 1s 2.5s subtitle-animation forwards;
 }
 
 .sobre,
 .contato,
 .portfolio {
-  padding: 2em;
+  padding: 2.5em;
   min-height: 100vh;
 }
 
