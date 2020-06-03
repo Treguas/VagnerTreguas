@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 body {
   background-color: #5383e8;
   background-size: auto 100vh; 
@@ -127,7 +131,7 @@ a:hover {
 .site-subtitle {
  opacity: 0;
  font-style: italic;
- font-family: 'Press Start 2P', cursive;
+ font-family: 'Ubuntu', sans-serif;
  line-height: 1.8em;
  animation: linear 1s 2.5s subtitle-animation forwards;
 }
@@ -150,7 +154,7 @@ a:hover {
 .sobre h2,
 .contato h2,
 .portfolio h2 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Ubuntu', sans-serif;
   color: whitesmoke;
   margin-bottom: 1.5em;
   font-size: 2em;
@@ -190,7 +194,7 @@ a:hover {
   }
 }
 
-.scroll{
+.scroll {
   position: absolute;
   width: 5vh;
   left: 50%;
@@ -293,4 +297,5 @@ a:hover {
 .follow {
   color: whitesmoke;
   text-align: center;
+  margin-bottom: 40px;
 }
