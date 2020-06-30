@@ -63,6 +63,7 @@ header {
 .menu ul {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .menu li {
