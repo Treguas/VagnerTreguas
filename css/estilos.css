@@ -92,11 +92,13 @@ header {
   background-color: #34495e;
   color: white;
   text-decoration: none;
+  border-radius: 30px 10px;
 }
 
 a {
   color: #34495e;
   text-decoration: none;
+  border-radius: 30px 10px;
 }
 
 a:hover {
