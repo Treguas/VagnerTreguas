@@ -46,6 +46,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(/img/bgHeader.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .menu {
