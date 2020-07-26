@@ -23,9 +23,10 @@ body {
 }
 
 footer {
+    font-size: 14px;
+    padding: 15px;
     width: 100vw;
-    background-color: black;
-    color: whitesmoke;
+    background-color: #bdc3c7;
     display: flex;
     align-items: center;
     flex-direction: row-reverse;    
@@ -33,8 +34,12 @@ footer {
 
 .vtreguas {
     margin-right: 15px;
-    color: whitesmoke;
+    color: #000;
     list-style: none;
+}
+
+footer a {
+    color: #333;
 }
 
 footer a:hover {
