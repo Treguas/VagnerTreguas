@@ -21,3 +21,22 @@ body {
   --background: #34495e;
   --hoverMenu: #34495e;
 }
+
+footer {
+    width: 100vw;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;    
+}
+
+.vtreguas {
+    margin-right: 15px;
+    color: whitesmoke;
+    list-style: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
