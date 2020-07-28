@@ -1,8 +1,10 @@
 # "Hello Friends" VagnerTreguas Here \o/ 👋
 ###### Site Portfólio Web Developer - Aprendo e Adiciono as funcionalidades 
 
+ 
 
-### "Olá pessoas!" 
+
+### "Thanks for checking my profile!" 
 
 My name is Vagner Treguas, and I'm from Brazil (🇧🇷), I am 30 years old, I live in São Paulo, Actually I study Development (Front-End).
 
@@ -26,4 +28,6 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+If you want to get in touch, send me a message on [twitter](https://twitter.com/vtreguas).
 -->
