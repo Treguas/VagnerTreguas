@@ -18,8 +18,9 @@ body {
 }
 
 :root {
+  --color-primary-lighter: #32e0c4;
   --background: #34495e;
-  --hoverMenu: #34495e;
+  --hoverMenu: #34495e; 
 }
 
 footer {

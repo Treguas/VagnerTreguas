@@ -149,9 +149,9 @@ a:hover {
 }
 
 .sobre .avatar {
-  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   float: right;
   margin-left: 1em;
+  margin-bottom: 1em;
 }
 
 .scroll {
@@ -267,3 +267,13 @@ a:hover {
 	visibility: hidden;
 }
 
+.devTreguas {
+  border-radius: 150px;
+
+  border-radius: 50%;
+    border: 5px solid var(--color-primary-lighter);
+    margin-bottom: 32px;
+    height: 300px;
+
+
+}
