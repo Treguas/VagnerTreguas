@@ -244,3 +244,26 @@ a:hover {
   text-align: center;
   margin-bottom: 40px;
 }
+
+.whatsapp {
+  width: 50px;
+  right: 55px;
+	position: fixed;
+	bottom: 95px; 
+}
+
+#caixaTexto {
+	background: #fff;
+	color: #333;
+	position: fixed;
+	width: 130px;
+	bottom: 55px;
+	right: 122px;
+	font-size: 16px;
+	line-height: 15px;
+	padding: 12px;
+	border-radius: 10px;
+	border: 1px solid #e2e2e2;
+	visibility: hidden;
+}
+
